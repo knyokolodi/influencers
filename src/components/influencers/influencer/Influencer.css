@@ -25,7 +25,7 @@
 }
 
 .influencer-text > p {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 
@@ -43,10 +43,4 @@
 
 .clearfix {
   clear: both;
-}
-
-@media all and (max-width: 481px) {
-  .influencer-text > p {
-    padding-top: 20px;
-  }
 }
