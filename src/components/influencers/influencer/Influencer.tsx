@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { SyntheticEvent } from 'react';
 import './Influencer.css';
 
 type InfluencerType = {
@@ -10,14 +10,14 @@ type InfluencerType = {
 
 export interface InfluencerProps {
   influencer: InfluencerType;
-  onFollow: (id: number) => void;
+  onFollow: (userId: number) => void;
 }
 
 const Influencer = ({ influencer, onFollow }: InfluencerProps) => {
   const { userId, profilePicture, username, website } = influencer;
 
-  const fallBackImage = (e: any) => {
-    e.target.src =
+  const fallBackImage = (e: SyntheticEvent<HTMLImageElement, Event>) => {
+    e.currentTarget.src =
       'https://iicllhawaii.iafor.org/wp-content/uploads/sites/31/2017/02/IAFOR-Blank-Avatar-Image-1.jpg';
   };
 
