@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import influencersData from '../../data/follower-suggestions.json';
 
 import Influencer from './influencer/Influencer';
