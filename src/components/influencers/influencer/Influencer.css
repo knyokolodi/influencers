@@ -6,6 +6,8 @@
   padding: 8px 14px;
   margin-top: 15px;
   align-self: center;
+  font-size: 0.9375rem;
+  line-height: 0.9375rem;
 }
 .btn-follow:hover {
   background-color: #004fb3;
@@ -27,6 +29,13 @@
 .influencer-text > p {
   margin-top: 15px;
   margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+}
+
+.influencer-text > span {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
 }
 
 .influencer-text > img {
